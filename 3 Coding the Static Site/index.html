@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Ruby on Rails Specialization Course 4: HTML, CSS, and Javascript for Web Developers - Assignment 3</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+	</head>
+	<body>
+		<!-- Site navbar -->
+		<nav id="site-nav" class="navbar navbar-inverse navbar-static-top">
+			<div class="container">
+				<header class="navbar-header">
+					<div class="navbar-brand">
+						<a href="index.html"><h1>Food, LLC</h1></a>
+					</div>
+					
+					<!-- Collapsible menu button -->
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapsible" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</header>
+				
+				<!-- Collapsible menu items -->
+				<div class="collapse navbar-collapse" id="navbar-collapsible">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html"><span class="glyphicon glyphicon-cutlery"></span>&nbsp;Chicken</a></li>
+						<li><a href="beef.html"><span class="glyphicon glyphicon-fire"></span>&nbsp;Beef</a></li>
+						<li><a href="sushi.html"><span class="glyphicon glyphicon-ice-lolly-tasted"></span>&nbsp;Sushi</a></li>
+					</ul>
+				</div>
+				<!-- Collapsible menu ends -->
+			</div>
+		</nav>
+		<!-- Site navbar ends -->
+		
+		<!-- Main content -->
+		<div id="main-content" class="container">
+			<!-- Page header -->
+			<header class="text-center"><h2>Our Menu</h2></header>
+			
+			<!-- Grid row -->
+			<div class="row">
+				<!-- Would've used a jumbotron for this, but assignment calls for grid system. -->
+				<div class="col-xs-12">
+					<section class="panel panel-info">
+						<header class="panel-heading">Chicken</header>
+						<article class="panel-body">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non dui viverra, tincidunt metus ut, blandit arcu. Mauris condimentum ligula nisl, sed dictum nulla tempus rutrum. Sed sed massa quis velit laoreet tincidunt vel vel purus. Quisque dictum luctus sapien sollicitudin tristique. Nam fringilla convallis elementum. Suspendisse augue magna, varius vestibulum velit nec, molestie vestibulum eros. Etiam a lectus efficitur, maximus justo non, bibendum lectus. Integer nulla ipsum, eleifend non congue eu, porttitor in justo. Proin molestie ipsum sit amet turpis pulvinar cursus. Sed neque sapien, placerat sed arcu ut, condimentum eleifend libero. Vestibulum eleifend, nisi at gravida varius, neque diam varius orci, sit amet vestibulum est nisi non augue. Donec placerat vel lorem eu malesuada. Phasellus ullamcorper porta diam quis imperdiet. Nullam sed sollicitudin ipsum. Praesent molestie varius mi. Maecenas dapibus id urna vitae ornare.</p>
+							<p>Ut laoreet nibh eget mattis lacinia. Quisque imperdiet est ut velit mollis, sed porta purus blandit. Vestibulum quis est dignissim, hendrerit turpis ac, efficitur leo. Mauris porta velit eget aliquet faucibus. Proin dui odio, ultrices id vehicula sit amet, lacinia et risus. In hac habitasse platea dictumst. Vivamus mattis aliquam feugiat. Praesent mollis vitae erat sed rhoncus. Vivamus congue turpis sed magna dignissim lobortis. Praesent vulputate leo vel viverra commodo. Nam tempor quis nunc eu ullamcorper. Nullam ultricies porta libero, in tempor erat dapibus at. Ut finibus sem sed aliquet porttitor. Nunc rutrum vitae turpis at convallis. Integer sodales quis ligula sit amet suscipit. Pellentesque aliquet nisl libero, sit amet pellentesque risus eleifend non.</p>
+						</article>
+					</section>
+				</div>
+			</div>
+		</div>		
+		<!-- Main content ends -->
+		
+		<!-- Site footer -->
+		<footer>
+			<div class="container">&copy; 2016 - Food, LLC.</div>
+		</footer>
+		
+		<!-- jQuery (Bootstrap JS plugins depend on it, so bootstrap.js must come after). -->
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>

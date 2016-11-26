@@ -1,0 +1,40 @@
+/* Generic/global styles */
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	background-color: #e4e4e4;
+}
+
+/* Navbar styles */
+#site-nav * {
+	color: #00a8ec;
+}
+
+#site-nav h1 {
+	font-size: 1.6em;
+	margin: 0;
+	padding: 0;
+}
+
+#site-nav div.navbar-brand a:hover, #site-nav div.navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#site-nav .navbar-brand {
+	padding: 10px 15px;
+	text-transform: uppercase;
+}
+
+#site-nav .navbar-nav li:hover {
+	background-color: #bfbfbf;
+}
+
+/* Page header styles */
+#main-content > header {
+	margin: 0;
+	padding: 0;
+}
+
+/* Generic styling */
+.panel {
+	height: 2000px;
+}
