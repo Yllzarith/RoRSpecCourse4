@@ -38,3 +38,8 @@ body {
 .panel {
 	height: 2000px;
 }
+
+.panel-heading {
+	font-size: 1.25em;
+	font-weight: bold;
+}
